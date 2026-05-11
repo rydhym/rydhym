@@ -13,9 +13,9 @@
 ╚═╝  ╚═╝   ╚═╝   ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝
 ```
 
-### `> CS Student · Competitive Programmer · Problem Solver`
+### `> Systems · Security · Web · Game Dev`
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Grinding+DSA+one+problem+at+a+time...;Building+things+that+run+fast.;Low+latency%2C+high+impact.;Always+debugging+at+2am.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Building+multi-threaded+systems+in+C%2B%2B...;Shipping+full-stack+web+apps...;Delivered+a+Unity+game+in+48+hours+at+GGJ+2025...;Researching+Himalayan+water+quality+as+a+Fellow...;Seeking+SDE+roles+in+systems%2C+security+%26+web.)](https://git.io/typing-svg)
 
 </div>
 
@@ -25,51 +25,86 @@
 
 ```cpp
 struct Developer {
-    string  name     = "Rydhym Agarwal";
-    string  role     = "CS Student";
-    string  focus[]  = { "Competitive Programming", "DSA", "Systems" };
-    string  currently = "Grinding company-wise problem sets";
-    bool    open_to_opportunities = true;
+    string  name      = "Rydhym Agarwal";
+    string  degree    = "B.Tech CS @ UPES (2024–2028)";
+    float   cgpa      = 7.9;
+
+    string  stack[]   = { "C++", "Python", "JavaScript", "ReactJS", "Node.js", "C#" };
+    string  domains[] = { "Systems Engineering", "Network Security", "Web Dev", "Game Dev" };
+
+    string  highlight = "Built a multi-threaded DPI engine with TLS SNI extraction — no decryption";
+    bool    open_to   = true;  // SDE roles: systems, security, web
 };
 ```
 
 ---
 
-## `$ cat tech_stack.txt`
+## `$ cat projects.log`
+
+### 🔍 Deep Packet Inspection Engine &nbsp;`C++ · Python · CMake`
+> Multi-threaded DPI engine with a **2-tier pipeline** (2 Load Balancer × 4 Fast Path threads) using thread-safe producer-consumer queues.
+> - Stateful flow tracking via **5-tuple consistent hashing** — same thread always handles the same connection
+> - Parses raw **TLS Client Hello** byte-by-byte to extract SNI for HTTPS destinations (YouTube, GitHub, etc.) — **without decrypting traffic**
+> - Enforces domain / IP / app-level blocking rules at the network layer
+
+---
+
+### ⚙️ CPU Scheduling Visualizer &nbsp;`C++ · Python · JavaScript`
+> Full-stack simulator for **8 scheduling algorithms** (FCFS, RR, SPN, SRT, HRRN, FB-1, FB-2i, Aging) with **SMP support** for 1, 2, 4, or N cores.
+> - C++ simulation engine → Python HTTP middleware → JS/HTML/CSS frontend
+> - Renders **dynamic Gantt charts** with Turnaround Time, Waiting Time & NTT metrics
+> - Validated with **Google Test Framework** across all algorithms and edge cases
+
+---
+
+### 🦈 Shark's Eye &nbsp;`Unity · C# · ShaderLab`
+> 2D underwater shooter built in **48 hours** at **Global Game Jam 2025** with a team of 4.
+> - Custom ShaderLab shaders for underwater visual effects
+> - Full playable build shipped to deadline
+
+---
+
+### 💰 clearpaisa &nbsp;&nbsp;🎬 flicksy &nbsp;&nbsp;🖥️ OS Project &nbsp;`JavaScript · Node.js`
+> Active JS projects exploring finance, media, and OS simulation in the browser.
+
+---
+
+## `$ lspci --tech-stack`
 
 **Languages**
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![ShaderLab](https://img.shields.io/badge/ShaderLab-222222?style=for-the-badge&logo=unity&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-**Tools & Platforms**
+**Frameworks & Tools**
 
+![ReactJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-**Focus Areas**
+**Databases**
 
-![DSA](https://img.shields.io/badge/DSA-0a1628?style=for-the-badge&logoColor=58a6ff)
-![Competitive Programming](https://img.shields.io/badge/Competitive_Programming-0a1628?style=for-the-badge&logoColor=58a6ff)
-![Networking](https://img.shields.io/badge/Networking-0a1628?style=for-the-badge&logoColor=58a6ff)
-![OS](https://img.shields.io/badge/Operating_Systems-0a1628?style=for-the-badge&logoColor=58a6ff)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
 ---
 
-## `$ ls -la repos/`
+## `$ cat achievements.txt`
 
-<div align="center">
+```
+[2025] 🏔️  Himalayan Fellow — UPES
+         Selected to conduct field & lab research on microbial diversity
+         and water quality in the Upper Himalayan region.
 
-[![Shark's Eye](https://github-readme-stats.vercel.app/api/pin/?username=rydhym&repo=Shark-s-Eye&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=3fb950)](https://github.com/rydhym/Shark-s-Eye)
-[![company-wise-dsa](https://github-readme-stats.vercel.app/api/pin/?username=rydhym&repo=company-wise-dsa&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=3fb950)](https://github.com/rydhym/company-wise-dsa)
-
-[![Deep-Packet-Inspection](https://github-readme-stats.vercel.app/api/pin/?username=rydhym&repo=Deep-Packet-Inspection&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=3fb950)](https://github.com/rydhym/Deep-Packet-Inspection)
-[![clearpaisa](https://github-readme-stats.vercel.app/api/pin/?username=rydhym&repo=clearpaisa&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=3fb950)](https://github.com/rydhym/clearpaisa)
-
-</div>
+[2025] 🎮  Global Game Jam 2025
+         Shipped a complete 2D Unity game in 48 hours with a team of 4.
+```
 
 ---
 
@@ -92,6 +127,8 @@ struct Developer {
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-rydhym-181717?style=for-the-badge&logo=github)](https://github.com/rydhym)
+[![Email](https://img.shields.io/badge/Email-contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL_HERE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0077B5?style=for-the-badge&logo=linkedin)](YOUR_LINKEDIN_URL_HERE)
 
 </div>
 
@@ -100,7 +137,7 @@ struct Developer {
 <div align="center">
 
 ```
-// always learning · always shipping · always debugging at 2am
+// systems · security · web · game — pick your battlefield
 ```
 
 ![Profile Views](https://komarev.com/ghpvc/?username=rydhym&color=58a6ff&style=flat-square&label=profile+views)
