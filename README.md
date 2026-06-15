@@ -162,8 +162,8 @@ struct Developer {
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-rydhym-181717?style=for-the-badge&logo=github)](https://github.com/rydhym)
-[![Email](https://img.shields.io/badge/Email-contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL_HERE)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0077B5?style=for-the-badge&logo=linkedin)](YOUR_LINKEDIN_URL_HERE)
+[![Email](https://img.shields.io/badge/Email-contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:agarwalrydhym@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/rydhym-agarwal/)
 
 </div>
 
