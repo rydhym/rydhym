@@ -140,14 +140,6 @@ Simulator covering 8 CPU scheduling algorithms (FCFS, RR, SPN, SRT, HRRN, FB-1, 
 </div>
 
 <br/>
-
-## A Few Fun Facts
-
-- 🎮 Shipped a full Unity game in 48 hours flat at Global Game Jam 2025 — zero sleep, one deadline
-- 🧗 Spent time in the Upper Himalayas as a research fellow — traded IDEs for microbial samples
-- 🔥 Currently mid-streak on LeetCode and refuse to break it
-- 🛠️ Genuinely enjoy "vibe coding" — but I ship things that work
-
 <br/>
 
 <div align="center">
