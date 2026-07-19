@@ -144,8 +144,6 @@ Simulator covering 8 CPU scheduling algorithms (FCFS, RR, SPN, SRT, HRRN, FB-1, 
 
 <div align="center">
 
-*Open to SWE internship opportunities in systems, backend, and AI-adjacent engineering roles.*
-
 ![Profile Views](https://komarev.com/ghpvc/?username=rydhym&color=6366F1&style=flat-square&label=Profile+Views)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,100:6366F1&height=100&section=footer" width="100%"/>
