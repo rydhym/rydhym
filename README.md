@@ -149,3 +149,23 @@ Simulator covering 8 CPU scheduling algorithms (FCFS, RR, SPN, SRT, HRRN, FB-1, 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,100:6366F1&height=100&section=footer" width="100%"/>
 
 </div>
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1406-stone-game-iii](https://github.com/rydhym/rydhym/tree/master/1406-stone-game-iii) |
+## Math
+|  |
+| ------- |
+| [1406-stone-game-iii](https://github.com/rydhym/rydhym/tree/master/1406-stone-game-iii) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1406-stone-game-iii](https://github.com/rydhym/rydhym/tree/master/1406-stone-game-iii) |
+## Game Theory
+|  |
+| ------- |
+| [1406-stone-game-iii](https://github.com/rydhym/rydhym/tree/master/1406-stone-game-iii) |
+<!---LeetCode Topics End-->
